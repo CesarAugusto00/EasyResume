@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesar Augusto Vargas Santini - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1 class="name">Cesar Augusto Vargas Santini</h1>
+            <div class="contact-info">
+                <a href="mailto:cesar.vargassantini@mail.utoronto.ca" class="contact-link">
+                    <i class="fas fa-envelope"></i> cesar.vargassantini@mail.utoronto.ca
+                </a>
+                <a href="https://ca.linkedin.com/in/cesar-augusto-vargas-santini-8679ab212" target="_blank" class="contact-link">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="#" class="contact-link">
+                    <i class="fas fa-globe"></i> My Website
+                </a>
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="section">
+            <h2 class="section-title">Summary of Qualifications</h2>
+            <ul class="summary-list">
+                <li>Experienced in developing full-stack, cloud-based, and AI-powered web applications integrating LLMs and autonomous agents.</li>
+                <li>Proficient in <strong>Python</strong>, <strong>C/C++</strong>, and modern AI frameworks such as <strong>PyTorch</strong>, <strong>TensorFlow</strong>, and <strong>Scikit-learn</strong>.</li>
+                <li>Strong understanding of <strong>Natural Language Processing (NLP)</strong> concepts, having studied "NLP with Transformers".</li>
+                <li>Skilled in data-driven development, integrating analytics dashboards, REST APIs, and scalable web architectures using <strong>Flask</strong>, <strong>Bootstrap</strong>, and <strong>Cloudant</strong>.</li>
+                <li>Analytical thinker with experience building quantitative tools (factor analytics engine, data pipelines, LLM reasoning engines).</li>
+                <li>Passionate about advancing AI research and applications, particularly in NLP, autonomous systems, and software intelligence.</li>
+                <li>Passionate about investment management and quantitative research; actively studying finance, markets, and financial ML.</li>
+                <li>Fast learner comfortable adopting new languages and tools (Q/Kdb+, Java, Spark, R).</li>
+                <li>Native <strong>Spanish</strong> speaker with professional English proficiency.</li>
+            </ul>
+        </section>
+
+        <!-- Professional Experience -->
+        <section class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="job-title">A.I. Software Engineer</h3>
+                    <span class="company">City AI (small startup)</span>
+                    <span class="location">Toronto</span>
+                    <span class="date">May 2025 – Present</span>
+                </div>
+                <ul class="job-description">
+                    <li>Design and implement an <strong>autonomous research system</strong> that crawls the web to identify emerging problems, inefficiencies, and business opportunities.</li>
+                </ul>
+                <div class="tech-stack">
+                    <strong>Tech Stack / Tools:</strong> Python, Flask, Bootstrap, Llama 3.1, Replicate API, Gunicorn, Render
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="job-title">Sales Representative & Software Developer</h3>
+                    <span class="company">Andrew Peller, The Wine Shop</span>
+                    <span class="location">Toronto</span>
+                    <span class="date">Jun 2022 – Jan 2023</span>
+                </div>
+                <ul class="job-description">
+                    <li>Delivered personalized customer service, managed daily operations, and consistently met monthly revenue goals.</li>
+                    <li>Independently developed a <strong>barcode-based inventory management system</strong> in C++ and Qt to improve stock visibility, reduce manual record-keeping, and improve operational efficiency.</li>
+                </ul>
+                <div class="tech-stack">
+                    <strong>Tech Stack / Tools:</strong> C++, Qt Framework, SQL
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3 class="degree">Bachelor of Applied Science in Computer Engineering</h3>
+                <div class="education-details">
+                    <span class="institution">University of Toronto</span>
+                    <span class="graduation-date">Expected Oct 2025</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section">
+            <h2 class="section-title">Projects</h2>
+            
+            <div class="project-item">
+                <div class="project-header">
+                    <h3 class="project-title">Equity Factor Analytics Engine</h3>
+                    <span class="project-tech">Python, Pandas, NumPy</span>
+                </div>
+                <p class="project-description">
+                    Built a financial analytics engine that retrieves equity market data and computes key quantitative factors including momentum, volatility, moving averages, and volume-based indicators. Implemented a simple long/short strategy and performed historical backtesting with Sharpe ratio and drawdown analysis. Demonstrates strong analytical reasoning and interest in investment technology.
+                </p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <h3 class="project-title">AI Portfolio Assistant (LLM) / Cesar AI</h3>
+                    <span class="project-tech">Flask, Bootstrap, Llama 3.1, Replicate API</span>
+                </div>
+                <p class="project-description">
+                    Built an AI-powered web app that answers visitor questions using custom contextual data. Developed an interactive assistant that answers questions using contextual data and retrieval-augmented generation. Designed vector retrieval and prompt-engineering logic and deployed using Gunicorn on Render for scalability and production stability.
+                </p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <h3 class="project-title">Multi-User Chat Server with Berkeley Sockets</h3>
+                    <span class="project-tech">C/C++, MySQL</span>
+                </div>
+                <p class="project-description">
+                    Designed a multi-threaded chat server and client supporting multiple chat rooms in real time. Created a multi-threaded high-performance chat server supporting concurrent clients and multiple chat rooms. Implemented authentication, message routing, and persistent MySQL-backed storage.
+                </p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <h3 class="project-title">Cloudant REST API (To-Do List App)</h3>
+                    <span class="project-tech">Flask, Bootstrap, Cloudant NoSQL</span>
+                </div>
+                <p class="project-description">
+                    Created a CRUD web app with RESTful APIs and dynamic pages using Jinja2 templates. Built and deployed a RESTful CRUD application using Jinja2 templates, Cloudant NoSQL, and Flask. Deployed on Render for production use.
+                </p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <h3 class="project-title">Power BI Transportation Sales Dashboard</h3>
+                    <span class="project-tech">Power BI, Data Visualization</span>
+                </div>
+                <p class="project-description">
+                    Built a data visualization dashboard for a transportation company's sales performance. Developed a business intelligence dashboard showing KPIs, revenue trends, and performance metrics.
+                </p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <h3 class="project-title">Barcode Inventory Management System</h3>
+                    <span class="project-tech">C++, Qt Framework</span>
+                </div>
+                <p class="project-description">
+                    Developed an inventory management tool with barcode scanning and database integration. Created a desktop application with barcode scanning and SQL integration to automate store logistics.
+                </p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Languages</h4>
+                    <p class="skill-items">Python, C/C++, SQL, MATLAB</p>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">AI & Data Tools</h4>
+                    <p class="skill-items">Scikit-learn, NumPy, Pandas, Power BI, PyTorch, TensorFlow</p>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Web & Cloud</h4>
+                    <p class="skill-items">Flask, Bootstrap, Jinja2, Render, Gunicorn, IBM Cloudant</p>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Hardware & Systems</h4>
+                    <p class="skill-items">Arduino, Atmel, Raspberry Pi, Linux, Unix, Windows</p>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Core Expertise</h4>
+                    <p class="skill-items">Full-Stack Development, AI-Powered Systems, Data Visualization, Software Architecture, Data Analysis, Backend Systems, Distributed Systems Basics</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Finance & Economics Learning -->
+        <section class="section">
+            <h2 class="section-title">Finance & Economics Learning</h2>
+            <ul class="learning-list">
+                <li><strong>The Portable MBA in Finance and Accounting</strong> — corporate finance and financial statements.</li>
+                <li><strong>Investments</strong> by Zvi Bodie — risk/return, portfolios, equity markets.</li>
+                <li><strong>Microeconomics</strong> by Krugman — market incentives, decision frameworks.</li>
+                <li><strong>Machine Learning & Data Science Blueprints for Finance</strong> — applied ML for financial systems.</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
