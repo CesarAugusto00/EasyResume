@@ -217,13 +217,21 @@ body {
 
 /* Projects Section */
 .project-item {
-    margin-bottom: 30px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #ecf0f1;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #fafbfc;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.project-item:hover {
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.15);
+    transform: translateY(-2px);
 }
 
 .project-item:last-child {
-    border-bottom: none;
+    margin-bottom: 0;
 }
 
 .project-header {
@@ -267,11 +275,15 @@ body {
     align-items: center;
     gap: 6px;
     transition: color 0.3s ease;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: rgba(52, 152, 219, 0.1);
 }
 
 .project-link:hover {
     color: #2980b9;
-    text-decoration: underline;
+    background-color: rgba(52, 152, 219, 0.2);
+    text-decoration: none;
 }
 
 /* Skills Section */
