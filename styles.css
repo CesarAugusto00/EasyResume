@@ -68,14 +68,16 @@ body {
 }
 
 .section-title {
-    font-size: 1.5em;
-    font-weight: 600;
+    font-size: 1.6em;
+    font-weight: 700;
     color: #2c3e50;
     margin-bottom: 20px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #ecf0f1;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    padding: 12px 20px;
+    border-left: 5px solid #3498db;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 /* Summary Section */
@@ -282,7 +284,7 @@ body {
 .skill-category {
     padding: 15px;
     background-color: #f8f9fa;
-    border-left: 3px solid #2c3e50;
+    border-left: 3px solid #3498db;
     border-radius: 4px;
 }
 
@@ -291,9 +293,6 @@ body {
     font-weight: 600;
     color: #2c3e50;
     margin-bottom: 8px;
-    text-transform: uppercase;
-    font-size: 0.85em;
-    letter-spacing: 0.5px;
 }
 
 .skill-items {
@@ -363,7 +362,11 @@ body {
     }
 
     .section-title {
-        font-size: 1.3em;
+        font-size: 1.4em;
+        margin-left: -25px;
+        margin-right: -25px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
